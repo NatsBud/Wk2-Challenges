@@ -1,0 +1,46 @@
+<html>
+<head>
+<style>
+html,
+body,
+div,
+h1,
+p,
+a,
+video {
+  margin: 0;
+  padding: 0;
+}
+html,
+body {
+  height: 100%;
+}
+
+body {
+  font-family: "Oxygen", sans-serif;
+}
+
+.content {
+  position: relative;
+  z-index: 2;
+}
+
+
+.video {
+  position: fixed;
+  top: 50%; left: 50%;
+  z-index: -1;
+  min-width: 100%;
+  min-height: 100%;
+  width: auto;
+  height: auto;
+  transform: translate(-50%, -50%);
+}
+
+
+
+.mt-0 {
+  margin-top: 20px !important;
+}
+
+.opacity{opacity: .6}
